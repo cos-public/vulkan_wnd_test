@@ -1,6 +1,9 @@
 # vulkan_wnd_test
 [Vulkan Docs issue #1039](https://github.com/KhronosGroup/Vulkan-Docs/issues/1039) repro app
 
+### Requirements
+* `Windows.h`, `vulkan.h`, c++17
+
 This app was built with:
 * Microsoft Visual Studio 2019 (v142 platform toolset, 10.0.18362.0 Windows SDK version)
 * Vulkan SDK 1.1.121.2

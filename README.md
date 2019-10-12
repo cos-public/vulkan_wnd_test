@@ -4,6 +4,7 @@
 This app was built with:
 * Microsoft Visual Studio 2019 (v142 platform toolset, 10.0.18362.0 Windows SDK version)
 * Vulkan SDK 1.1.121.2
+
 This app is expected to be run under MSVC debugger to enable `assert()` and `DebugOutput`
 
 This app fails on `vkCreateSwapchainKHR()` with `VK_ERROR_INITIALIZATION_FAILED` when using window with `classStyle` other than `CS_OWNDC` on Microsoft Surface Book 2 with configuration:
